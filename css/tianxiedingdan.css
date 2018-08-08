@@ -1,0 +1,383 @@
+.title {
+  background-color: #fdd900;
+  padding-top: 24px;
+}
+.title-center {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.car-left {
+  line-height: 60px;
+  font-size: 30px;
+  border-left: 5px solid #000;
+  padding-left: 20px;
+}
+
+.car-right span {
+  line-height: 37px;
+  border-bottom: 2px solid #000;
+  margin-left: 20px;
+}
+
+.car-right .active {
+  font-weight: bold;
+  border-bottom: 4px solid #000;
+}
+.main {
+  background-image: url(../img/index/bg2.jpg);
+}
+
+.main1 {
+  background: url(../img/shopping-car/main1-bg.jpg) no-repeat;
+  background-color: #fff;
+}
+.main1-center {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.receive-title {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0 15px;
+  border-bottom: 2px solid #000;
+  align-items: center;
+}
+.add-receive {
+  padding-left: 26px;
+  background: url(../img/tianxiedingdan/bg-3.png) no-repeat 0px -80px;
+}
+.receive-people p {
+  line-height: 20px;
+  padding-left: 20px;
+}
+.receive-people {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 26px;
+  font-size: 14px;
+  border: 3px solid #fff;
+  background-color: #fff;
+}
+
+.receive-people-right {
+  display: flex;
+  justify-content: space-between;
+  width: 257px;
+  align-items: center;
+}
+.receive-people-right a:hover {
+  color: red;
+}
+.receive-all {
+  border-top: 1px solid #d1d7e3;
+  background-color: #babec9;
+}
+body .receive-all .receive-active {
+  border: 3px solid #fcd901;
+  background: url(../img/tianxiedingdan/bg-3.png) no-repeat 0 84px;
+}
+body .hid {
+  display: none;
+}
+.show-more {
+  width: 100%;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  background: url(../img/tianxiedingdan/a-bg.jpg) repeat-x;
+  margin-top: 20px;
+}
+.show-more:hover {
+  color: red;
+  background: url(../img/tianxiedingdan/a-bg2.jpg) repeat-x;
+}
+.change-product {
+  font-size: 14px;
+}
+.change-product:hover {
+  color: red;
+}
+.product-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 10px 24px;
+}
+.product-img,
+.product-text {
+  display: flex;
+  align-items: center;
+}
+.product-img img {
+  margin-right: 20px;
+}
+.product-type {
+  color: #aaabaf;
+}
+.product-text {
+  justify-content: space-between;
+  width: 432px;
+}
+.pro-list {
+  border-bottom: 2px solid #000;
+}
+.pro-list > div + div {
+  border-top: 1px solid #d1d7e3;
+}
+/*pay部分*/
+.main1-pay {
+  border-bottom: 1px solid #d1d7e3;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 30px 0;
+}
+.main1-pay a {
+  width: 96px;
+  border: 3px solid #babec9;
+  line-height: 46px;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+}
+.main1-pay .pay-a-active {
+  border: 3px solid #fcd901;
+  background: url(../img/tianxiedingdan/bg-3.png) no-repeat 0 30px;
+}
+.main1-pay span {
+  line-height: 46px;
+  margin-right: 18px;
+}
+.pay-left a {
+  margin-right: 48px;
+  width: 124px;
+}
+.pay-right .save {
+  line-height: 46px;
+  display: inline-block;
+  width: 56px;
+  background-color: #fcd901;
+  border: none;
+  padding: 0;
+  text-align: center;
+  margin-right: 0;
+  cursor: pointer;
+}
+.people-name {
+  line-height: 46px;
+  border: 1px solid #babec9;
+  text-indent: 20px;
+  width: 175px;
+}
+/*备注部分*/
+.mark-text {
+  border: 1px solid #babec9;
+  border-top: none;
+  height: 108px;
+}
+.total-text {
+  border-bottom: 2px solid #000;
+  font-size: 14px;
+  line-height: 34px;
+}
+.total-num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.finally-price {
+  font-size: 32px;
+  color: red;
+}
+/*提交订单按钮*/
+.submit {
+  width: 220px;
+  line-height: 60px;
+  display: inline-block;
+  background-color: #fcd901;
+  font-size: 28px;
+  text-align: center;
+}
+.submit-div {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 40px;
+  padding-bottom: 110px;
+}
+/*遮罩层*/
+.reg-shadow {
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 100;
+}
+body {
+  position: relative;
+}
+.reg {
+  width: 654px;
+  background-color: #fff;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+.close-reg {
+  width: 10px;
+  height: 10px;
+  background: url(../img/shopping-car/bg-2.jpg) no-repeat -4px -3px;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.reg input {
+  line-height: 24px;
+  text-indent: 10px;
+  border: 1px solid #aaabaf;
+}
+
+.hid3 {
+  display: none;
+}
+.address-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-bottom: 2px solid #000;
+  height: 58px;
+}
+.shouhuoren,
+.diqu,
+.bieming,
+.baocun {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+}
+.xiangxi {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.bieming-btn {
+  line-height: 24px;
+  display: inline-block;
+  width: 64px;
+  border: 1px solid #aaabaf;
+  text-align: center;
+}
+
+.err1,
+.err2,
+.err3,
+.err4 {
+  color: red;
+}
+
+.bieming-btn-active {
+  background-color: #fcd901;
+}
+
+.reg select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #aaabaf;
+  background: url(../img/tianxiedingdan/bg-3.png) no-repeat 179px -186px;
+  line-height: 24px;
+  text-indent: 10px;
+}
+
+body .active1 {
+  border: 3px solid #fcd901;
+  background: url(../img/tianxiedingdan/bg-3.png) no-repeat 0 84px;
+  background-color: #fff;
+}
+.receive-all div + div {
+  margin-top: 1px;
+}
+.shanchu{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.queren{
+  position: absolute;
+  top:27px;
+  left:-120px;
+  height: 32px;
+  display: flex;
+  box-shadow: 0px 0px 4px 1px red;
+  display: none;
+  z-index: 100;
+}
+.queren-a{
+  display: inline-block;
+  line-height: 32px;
+  width: 74px;
+  background-color:red;
+  font-size: 14px;
+  color:#fff;
+  text-align:center;
+}
+.no-a{
+  line-height: 32px;
+  display: inline-block;
+  color:#fff;
+  width: 106px;
+  background-color:#000;
+  text-align:center;
+  font-size: 14px;
+}
+.sanjiao{
+  width: 12px;
+  height: 10px;
+  background: url(../img/shopping-car/bg-2.jpg) no-repeat 0 -325px;
+  position: absolute;
+  top:-10px;
+  right:19px;  
+}
+body .show{
+  display: flex;
+}
+.shadow22{
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.shanchu:hover{
+  color:red;
+}
+
+.pay-right{
+  width:548px ;
+}
+body .main .hid4{
+  display: none;
+}

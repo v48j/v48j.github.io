@@ -1,0 +1,58 @@
+.footer-top {
+  background-color: #000;
+  padding-bottom: 50px;
+}
+.footer-top > .center {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-top > .center > div > p {
+  font-weight: bold;
+  line-height: 62px;
+  font-size: 24px;
+}
+.footer-top > .center > div {
+  width: 250px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+.list div {
+  width: 112px;
+}
+.list a {
+  color: #fff;
+  margin-left: 46px;
+  line-height: 36px;
+  font-size: 16px;
+}
+.erweima {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+footer > .footer-top > .center > .f-right > .phone {
+  line-height: 18px;
+  background: url(../img/shopping-car/li-bg.jpg) no-repeat 0 -255px;
+  padding-left: 46px;
+}
+.phone span {
+  font-size: 16px;
+}
+
+.footer-bottom {
+  background-color: #2b2e33;
+  padding: 14px 0;
+}
+.footer-bottom > .center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1148px;
+}
+.f-text > p {
+  color: #707378;
+  font-size: 12px;
+}
